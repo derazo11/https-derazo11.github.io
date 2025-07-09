@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erazo Tech - Soluciones Tecnológicas Innovadoras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Erazo Tech</a>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Soluciones Tecnológicas Integrales para tu Negocio</h1>
+                <p>Especialistas en reparación de equipos, instalación de cámaras de seguridad, venta de accesorios y software de encriptación avanzada</p>
+                <a href="#contacto" class="cta-button">Comenzar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Reparación de Equipos</h3>
+                    <p>Diagnóstico y reparación especializada de computadoras, laptops y equipos electrónicos. Cambio de componentes y mantenimiento preventivo.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📷</div>
+                    <h3>Instalación de Cámaras</h3>
+                    <p>Sistemas de videovigilancia completos para hogares y empresas. Instalación profesional con monitoreo remoto y grabación en alta definición.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Venta de Accesorios</h3>
+                    <p>Amplio catálogo de componentes y accesorios para computadoras. Memorias RAM, discos duros, tarjetas gráficas y más.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Software de Encriptación</h3>
+                    <p>Protege tu información con nuestro software de encriptación RSA + AES. Máxima seguridad para datos empresariales críticos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Simulacros Pruebas SABER</h3>
+                    <p>Sistema de simulacros para pruebas SABER 11 e ICFES. Generación de exámenes individuales y grupales con resultados detallados.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Soporte Técnico</h3>
+                    <p>Asistencia técnica especializada para mantener tus equipos funcionando óptimamente. Soporte remoto y presencial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contacto">
+        <div class="container">
+            <div class="form-container">
+                <h2 class="section-title">Obtén una Consulta Gratuita</h2>
+                <form id="contactForm" action="https://formsubmit.co/erazotech95@gmail.com" method="POST">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_subject" value="Nueva consulta desde la web - Erazo Tech">
+                    <input type="hidden" name="_next" value="https://erazotech.com/gracias.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="servicio">Servicio de Interés</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="reparacion">Reparación de Equipos</option>
+                            <option value="camaras">Instalación de Cámaras</option>
+                            <option value="accesorios">Venta de Accesorios</option>
+                            <option value="encriptacion">Software de Encriptación</option>
+                            <option value="simulacros">Simulacros Pruebas SABER</option>
+                            <option value="soporte">Soporte Técnico</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">¿Cómo podemos ayudarte?</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Solicitar Consulta Gratuita</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Erazo Tech reparó mi laptop en tiempo récord y a excelente precio. El servicio fue profesional y la garantía me dio total confianza."
+                    </div>
+                    <div class="testimonial-author">- María González, Contadora Independiente</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Instalaron un sistema completo de cámaras de seguridad en mi negocio. Ahora tengo total tranquilidad y control sobre mi establecimiento."
+                    </div>
+                    <div class="testimonial-author">- Carlos Rodríguez, Propietario de Restaurante</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "El software de simulacros SABER ayudó enormemente a mis estudiantes. Los resultados en las pruebas reales mejoraron significativamente."
+                    </div>
+                    <div class="testimonial-author">- Ana López, Directora Académica</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <h2 class="section-title">¿Por qué Elegir Erazo Tech?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚡</div>
+                    <div class="benefit-content">
+                        <h4>Diagnóstico Rápido</h4>
+                        <p>Identificamos problemas en minutos y ofrecemos soluciones inmediatas</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🎯</div>
+                    <div class="benefit-content">
+                        <h4>Servicio Personalizado</h4>
+                        <p>Soluciones adaptadas a las necesidades específicas de cada cliente</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🔧</div>
+                    <div class="benefit-content">
+                        <h4>Garantía Extendida</h4>
+                        <p>Todos nuestros servicios incluyen garantía de 3 meses</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">📊</div>
+                    <div class="benefit-content">
+                        <h4>Precios Competitivos</h4>
+                        <p>Tarifas justas y transparentes sin costos ocultos</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🚀</div>
+                    <div class="benefit-content">
+                        <h4>Tecnología Avanzada</h4>
+                        <p>Utilizamos herramientas y componentes de última generación</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">💡</div>
+                    <div class="benefit-content">
+                        <h4>Servicio a Domicilio</h4>
+                        <p>Reparaciones y instalaciones en la comodidad de tu hogar u oficina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-content">
+                <div class="guarantee-badge">✓</div>
+                <h2>Garantía de Satisfacción y Calidad</h2>
+                <p>Respaldamos todos nuestros servicios con garantía de 3 meses en reparaciones, 6 meses en instalaciones de cámaras y soporte técnico gratuito por 30 días. Si no estás completamente satisfecho, solucionamos el problema sin costo adicional.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Erazo Tech</h4>
+                    <p>Soluciones tecnológicas integrales para hogares y empresas desde 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: erazotech95@gmail.com</p>
+                    <p>Teléfono: +57 320 665 4410</p>
+                    <p>Samaniego, Nariño - Colombia</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <a href="#">LinkedIn</a><br>
+                    <a href="#">Twitter</a><br>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <hr style="margin: 2rem 0; border: none; border-top: 1px solid #374151;">
+            <p>&copy; 2025 Erazo Tech. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
